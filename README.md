@@ -51,9 +51,6 @@ Built a horizontal bar chart comparing average life expectancy across continents
 - Sorted by field (descending) to rank continents clearly
 - Adjusted colours and labels for readability
 
-**Screenshot**
-> 📸 *In Tableau, navigate to the `Life Expectancy by Continent` worksheet. Capture the full chart showing all continents on the Y-axis and average life expectancy values on the X-axis, with the sort applied so the highest continent appears at the top. Colour formatting and axis labels should be visible.*
-
 ![Life Expectancy by Continent](./images/proj1_visual1_life_expectancy_continent.png)
 
 ---
@@ -70,9 +67,6 @@ Built a multi-line time series chart showing how life expectancy has changed ove
 - Added `Country` to the Colour mark to differentiate lines
 - Fixed the Y-axis range (Start: 70, End: 85) to remove whitespace and improve clarity
 - Added data labels via the Labels section in the Marks card
-
-**Screenshot**
-> 📸 *Navigate to the `Life Expectancy Trend` worksheet. Capture the full line chart showing years on the X-axis (covering the full dataset range), average life expectancy on the Y-axis (scaled 70–85), and five distinct coloured lines — one per country. The legend showing which colour corresponds to which country must be visible on the right.*
 
 ![Life Expectancy Trend](./images/proj1_visual2_life_expectancy_trend.png)
 
@@ -92,9 +86,6 @@ Built a pie chart showing the population split between male and female for Canad
 - Dragged `Population` to the Label mark to display values on each slice
 - Resized the chart for visibility and readability on the dashboard
 
-**Screenshot**
-> 📸 *Navigate to the `Population by Gender` worksheet. Capture the pie chart showing two slices (male and female) with population figures displayed as labels on each slice. The Country filter (showing Canada) and Year filter (showing 2008) should be visible as interactive controls on the right side of the view.*
-
 ![Population by Gender](./images/proj1_visual3_population_gender.png)
 
 ---
@@ -111,9 +102,6 @@ Built a scatter plot to explore the relationship between average life expectancy
 - Added `Continent` to the Colour mark to group countries visually
 - Customised the axis ranges to centre the data (X: 500–1350, Y: 1000–3500)
 
-**Screenshot**
-> 📸 *Navigate to the `Life Expectancy vs BMI` worksheet. Capture the full scatter plot showing individual country dots across the chart area, with the Continent colour legend visible on the right. Both axis labels ("Life Expectancy" and "BMI") should be clearly readable. The spread of points across continents — particularly the clustering of African countries in the lower-left — should be visible.*
-
 ![Life Expectancy vs BMI Scatter](./images/proj1_visual4_scatter_bmi.png)
 
 ---
@@ -123,9 +111,6 @@ Built a scatter plot to explore the relationship between average life expectancy
 **Dashboard name:** `Global Health Dashboard`
 
 Combined all four worksheets into a single interactive dashboard, with the Continent colour filter repositioned to float beside the scatter plot, and the pie chart resized for balanced layout.
-
-**Screenshot**
-> 📸 *Navigate to the `Global Health Dashboard` tab. Capture the complete dashboard showing all four visuals arranged together — bar chart (top left or right), line chart (trend over time), pie chart (population by gender), and scatter plot. The floating Continent legend filter should be visible near the scatter plot. The dashboard title "Global Health Insights" should be readable at the top.*
 
 ![Global Health Dashboard](./images/proj1_dashboard_global_health.png)
 
@@ -163,9 +148,6 @@ Built a filled choropleth map showing average BMI by country, using a red-blue d
 - Dragged `Life Expectancy` to Colour and changed aggregation to Average
 - Applied a red-blue diverging stepped colour palette for clearer range distinctions
 
-**Screenshot**
-> 📸 *Navigate to the Global Average BMI map worksheet. Capture the full world map with countries filled in colour — darker shades indicating higher or lower life expectancy depending on your palette direction. The colour legend should be visible on the right, clearly showing the scale from lowest (one colour) to highest (contrasting colour). Country boundaries should be visible.*
-
 ![Global BMI Map](./images/proj1_extra_visual1_bmi_map.png)
 
 ---
@@ -178,11 +160,8 @@ A stacked bar chart showing how life expectancy has evolved year by year across 
 - Dragged `Year` to Columns and `Life Expectancy` to Rows (SUM)
 - Changed mark type to Bar
 - Dragged `Continent` to Colour
-- Added `Life Expectancy` to Detail (set to Average) for more precise breakdown
+- Added `Life Expectancy` to Detail (set to Average) for a more precise breakdown
 - Adjusted the colour palette and bar width via the Size slider
-
-**Screenshot**
-> 📸 *Navigate to the Life Expectancy Trends by Continent worksheet. Capture the full bar chart showing years 1990–2008 on the X-axis and life expectancy values on the Y-axis. Each bar should be filled with stacked segments — one colour per continent. The Continent colour legend should be visible on the right.*
 
 ![Life Expectancy Trends by Continent](./images/proj1_extra_visual2_trends_continent.png)
 
@@ -198,9 +177,6 @@ An enhanced scatter plot comparing average BMI against average life expectancy b
 - Added `Country` to Detail and `Continent` to Colour
 - Added a linear trend line via the Analytics tab (drag Trend Line → Linear)
 - Set view to Fit Entire View
-
-**Screenshot**
-> 📸 *Navigate to the BMI and Life Expectancy scatter plot worksheet. Capture the full chart showing the scatter of country dots, the linear trend line running diagonally through the data, and the Continent colour legend. Outlier countries (particularly in the bottom-left, low BMI and low life expectancy cluster) should be visible. The trend line should be clearly distinct from the data points.*
 
 ![BMI Life Expectancy Trend Line](./images/proj1_extra_visual3_bmi_trendline.png)
 
@@ -221,9 +197,6 @@ Created a calculated field combining Liver, Lung, and Stomach Cancer rates into 
 - Applied `Continent` to Colour
 - Sorted descending to rank countries from highest to lowest cancer rate
 
-**Screenshot**
-> 📸 *Navigate to the Cancer Rates worksheet. Capture the full bar chart with countries on the Y-axis (sorted descending — highest cancer rate at the top) and Total Cancer Rate on the X-axis. The Continent colour legend should be visible. The top 10–15 countries should be clearly readable on screen — scroll if needed and take a second screenshot showing the bottom of the chart, or capture the full view if it fits.*
-
 ![Cancer Rates by Country](./images/proj1_extra_visual4_cancer_rates.png)
 
 ---
@@ -236,9 +209,6 @@ A line chart showing population growth trends per continent from 1990 to 2008, r
 - Dragged `Year` to Columns and `Population Growth` to Rows
 - Applied `Continent` to Colour
 - Changed mark type to Line
-
-**Screenshot**
-> 📸 *Navigate to the Population Growth worksheet. Capture the full line chart with years on the X-axis (1990–2008) and population growth values on the Y-axis. Each continent should appear as a distinct coloured line. Africa should be visible as the highest line throughout. The Continent colour legend should be visible on the right.*
 
 ![Population Growth by Continent](./images/proj1_extra_visual5_population_growth.png)
 
@@ -255,9 +225,6 @@ A bar chart showing average life expectancy broken down by country and gender fo
 - Added `BMI` (Average) to the Marks card as additional detail
 - Filtered `Year` to 2008 (converted Year to Discrete first)
 - Edited axis title for clarity
-
-**Screenshot**
-> 📸 *Navigate to the Gender Health Overview worksheet. Capture the view showing multiple rows of bar charts — one per country — with two bars per country (one for each gender). The Continent colour legend should be visible on the right. The Year filter (2008) should be visible. Scroll to show a representative sample of 10–15 countries clearly.*
 
 ![Gender Health Overview](./images/proj1_extra_visual6_gender_health.png)
 
@@ -290,9 +257,6 @@ A bar chart showing how many tracks appear in the dataset for each genre, giving
 - Dragged `Genre` to Rows and `Track Name` (Count) to Columns
 - Sorted descending to rank genres by volume
 
-**Screenshot**
-> 📸 *Navigate to the Number of Songs by Genre worksheet. Capture the horizontal bar chart with genres listed on the Y-axis and track count on the X-axis, sorted from highest to lowest. All genre labels should be readable. The chart title should be visible at the top.*
-
 ![Songs by Genre](./images/proj2_visual1_songs_by_genre.png)
 
 ---
@@ -305,9 +269,6 @@ A bar chart comparing the average popularity score (0–100) across all genres, 
 - Dragged `Genre` to Rows and `Popularity` (Average) to Columns
 - Applied colour to highlight the spread between high and low popularity genres
 - Sorted descending
-
-**Screenshot**
-> 📸 *Navigate to the Average Popularity by Genre worksheet. Capture the horizontal bar chart showing genres on the Y-axis and average popularity score on the X-axis (0–100 scale). The highest-performing genres (Pop, Rap, Rock) should appear at the top. Colour differences between bars should be visible. The chart title should be readable.*
 
 ![Average Popularity by Genre](./images/proj2_visual2_avg_popularity_genre.png)
 
@@ -322,9 +283,6 @@ A scatter plot exploring the relationship between a track's energy level and its
 - Added `Genre` to Colour to see if the relationship holds across different music types
 - Applied a trend line (Analytics tab → Linear Trend Line)
 
-**Screenshot**
-> 📸 *Navigate to the Energy vs Danceability worksheet. Capture the full scatter plot showing the distribution of tracks, with energy on the X-axis and danceability on the Y-axis. The linear trend line should be clearly visible running through the data. The Genre colour legend should be visible on the right. The positive correlation (dots trending upward from left to right) should be visually apparent.*
-
 ![Energy vs Danceability](./images/proj2_visual3_energy_danceability.png)
 
 ---
@@ -336,9 +294,6 @@ A visualisation grouping tracks into popularity band categories (e.g. Low, Mediu
 **What I did:**
 - Created a calculated field or bin to segment the `Popularity` score into bands
 - Visualised the distribution to show the concentration of tracks in the medium popularity range
-
-**Screenshot**
-> 📸 *Navigate to the Popularity Bands worksheet. Capture the chart showing popularity band categories (e.g. Low / Medium / High or numerical bands) on one axis and the count or proportion of tracks on the other. It should be clearly visible that the majority of tracks fall into the medium range (~70% of all tracks). Labels or percentage annotations should be visible if applied.*
 
 ![Popularity Bands](./images/proj2_visual4_popularity_bands.png)
 
@@ -352,9 +307,6 @@ A visualisation showing the spread (range) of popularity scores for individual t
 - Used `Track Name` and `Genre` as dimensions
 - Plotted popularity range or distribution to reveal consistency vs. variability
 
-**Screenshot**
-> 📸 *Navigate to the Popularity Consistency worksheet. Capture the chart showing genres or tracks on one axis and their popularity spread on the other. Genres with tight clusters of popularity scores (consistent performers) should be visually distinct from those with a wide spread (unpredictable results). Genre labels should be readable.*
-
 ![Popularity Consistency](./images/proj2_visual5_popularity_consistency.png)
 
 ---
@@ -364,9 +316,6 @@ A visualisation showing the spread (range) of popularity scores for individual t
 **Dashboard name:** `Spotify Dashboard`
 
 Combined all five Spotify worksheets into a single interactive dashboard giving a holistic view of genre performance, audio characteristics, and popularity patterns.
-
-**Screenshot**
-> 📸 *Navigate to the `Spotify Dashboard` tab. Capture the complete dashboard showing all visuals arranged together — genre breakdown, popularity by genre, scatter plot, bands, and consistency charts. Any interactive filters should be visible. The dashboard title "Spotify Music Trends & Popularity Analysis" should be readable at the top.*
 
 ![Spotify Dashboard](./images/proj2_dashboard_spotify.png)
 
